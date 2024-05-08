@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+  }
+  body{
+    background-color: gray;
+  }
+  a {
+    color: black;
+  font-weight: 700;
+  }
+  .parent{
+    height:735px;
+    width: 1400px;
+    margin: 20px 0 0 90px;
+    border: 1px solid gray; 
+  }
+  .parent_1{
+    height:55%;
+    width: 100%;
+    background-color:cornflowerblue;
+    padding: 50px 0 0 0;
+  }
+  .parent_1 h2{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parent_1 p{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parent_2{
+    height:45%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.box{
+    height: 400px;
+    width: 250px;
+    margin: -250px 25px 0 25px;
+    background-color: white;
+    border: .4px solid gray;
+    border-radius: 10px; 
+    padding: 0 10px 10px 10px;
+}
+.box:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.shape{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: white;
+    top: 0;
+    margin: -45px 0 0 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.shape_1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid cornflowerblue;
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+.box img{
+    width: 100%;
+    height: 200px;
+}
+.box h2{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+    font-size: 1.1rem;
+}
