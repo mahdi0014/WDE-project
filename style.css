@@ -471,6 +471,7 @@ ul {
 }
 ul a {
   display: block;
+  font-size: 0.9rem;
   margin: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -479,7 +480,7 @@ ul p {
   font-size: 1.3rem;
 }
 ul i {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .end-text {
   margin-top: 3px;
@@ -492,6 +493,7 @@ ul i {
 }
 .end-text a {
   margin-right: 2%;
+  font-size: 0.9rem;
 }
 .copyright {
   background-color: transparent;
